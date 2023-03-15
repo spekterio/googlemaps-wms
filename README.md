@@ -1,3 +1,8 @@
+
+# This is a fork of the famouse OGC Package!
+It is modified to add the WMS time parameter to a WMS overlay
+
+
 # OGC Plugin for Google Maps
 
 [![npm](https://img.shields.io/npm/v/@googlemaps/ogc)](https://www.npmjs.com/package/@googlemaps/ogc)
