@@ -106,6 +106,7 @@ const WmsMapType = function ({
     outline: String(outline),
     width: String(tileSize.width),
     height: String(tileSize.height),
+    time,
     ...DEFAULT_WMS_PARAMS,
   };
 
