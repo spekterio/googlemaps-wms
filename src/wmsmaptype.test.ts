@@ -55,6 +55,7 @@ test.each([
       maxZoom: 18,
       minZoom: 0,
       opacity: 1.0,
+      time: "",
     },
   ],
   [
