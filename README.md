@@ -1,5 +1,5 @@
 
-# This is a fork of the famouse OGC Package!
+# This is a fork of the famous OGC Package!
 It is modified to add the WMS time parameter to a WMS overlay
 
 
