@@ -69,6 +69,7 @@ interface WmsMapTypeOptions {
   alt?: string;
   minZoom?: number;
   opacity?: number;
+  time?: string;
 }
 
 /**
@@ -90,6 +91,7 @@ const WmsMapType = function ({
   maxZoom,
   minZoom,
   opacity,
+  time,
 }: WmsMapTypeOptions): google.maps.ImageMapType {
   // currently only support tileSize of 256
   const tileSize = new google.maps.Size(256, 256);
