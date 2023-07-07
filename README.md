@@ -1,7 +1,6 @@
-
 # This is a fork of the famous OGC Package!
-It is modified to add the WMS time parameter to a WMS overlay
 
+It is modified to add the WMS time parameter to a WMS overlay
 
 # OGC Plugin for Google Maps
 
@@ -22,10 +21,10 @@ Add a WmsMapType to Google Maps.
 
 ## NPM
 
-Available via NPM as the package `@googlemaps/ogc`.
+Available via NPM as the package `ogc-spekter`.
 
-``` shell
-npm i @googlemaps/ogc
+```shell
+npm i ogc-spekter
 ```
 
 ## Documentation
@@ -36,18 +35,17 @@ The reference documentation can be found at this [link](https://googlemaps.githu
 
 See the [WMS](https://googlemaps.github.io/js-ogc/examples/wmslayer.html) example in action.
 
-
-``` javascript
-import { WmsMapType } from '@googlemaps/ogc';
+```javascript
+import { WmsMapType } from "ogc-spekter";
 
 map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
 landCoverMapType = WmsMapType({
-    url: "https://www.mrlc.gov/geoserver/NLCD_Land_Cover/wms?",
-    layers: "mrlc_display:NLCD_2016_Land_Cover_L48",
-    name: "Land Cover",
-    alt: "NLCD_2016_Land_Cover_L48",
-    maxZoom: 18
+  url: "https://www.mrlc.gov/geoserver/NLCD_Land_Cover/wms?",
+  layers: "mrlc_display:NLCD_2016_Land_Cover_L48",
+  name: "Land Cover",
+  alt: "NLCD_2016_Land_Cover_L48",
+  maxZoom: 18,
 });
 
 map.mapTypes.set("landcover", landCoverMapType);
