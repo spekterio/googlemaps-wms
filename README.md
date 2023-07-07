@@ -25,7 +25,7 @@ Add a WmsMapType to Google Maps.
 Available via NPM as the package `@googlemaps/ogc`.
 
 ``` shell
-npm i @googlemaps/ogc
+npm i spekter-ogc
 ```
 
 ## Documentation
